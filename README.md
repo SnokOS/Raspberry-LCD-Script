@@ -151,7 +151,7 @@ gpio -v
 # Bullseye branch system using the following command:
 git clone https://github.com/WiringPi/WiringPi
 cd WiringPi
-. /build
+./build
 gpio -v
 # Run gpio -v and version 2.70 will appear, if it doesn't it means there was an installation error
 ```
